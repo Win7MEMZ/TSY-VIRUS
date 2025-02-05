@@ -14,10 +14,10 @@ TSY病毒是由Win7MEMZ-BX及其团队编写的一款伪装成Cmd优化工具的
 
 三、病毒的修复
 如果您不幸遇上了病毒做出的所有恶意操作，不用担心。您可以通过以下方法进行修复：  
-    1. 在您的计算机中插入PE启动盘并从该介质启动。
-    2. 使用DiskGenius或AOMEI等分区工具进行磁盘搜索，找回原分区，保存修改。
-    3. 使用引导修复工具修复原系统的引导。
-    4. 开始进行注册表的修改。在PE的注册表编辑器中的HKEY_LOCAL_MACHINE加载配置单元[主系统盘符]\Windows\System32\config\software与system，在HKEY_USERS加载配置单元[主系统盘符]\Users\[用户名]\ntuser.dat，然后删除以下：
+    1. 在您的计算机中插入PE启动盘并从该介质启动。  
+    2. 使用DiskGenius或AOMEI等分区工具进行磁盘搜索，找回原分区，保存修改。  
+    3. 使用引导修复工具修复原系统的引导。  
+    4. 开始进行注册表的修改。在PE的注册表编辑器中的HKEY_LOCAL_MACHINE加载配置单元[主系统盘符]\Windows\System32\config\software与system，在HKEY_USERS加载配置单元[主系统盘符]\Users\[用户名]\ntuser.dat，然后删除以下：  
  [主系统盘符]\Users\[用户名]\ntuser.dat\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoLogOff [主系统盘符]\Users\[用户名]\ntuser.dat\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoClose [主系统盘符]\Users\[用户名]\ntuser.dat\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoDrives  
  [主系统盘符]\Users\[用户名]\ntuser.dat\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoFolderOptions  
  [主系统盘符]\Users\[用户名]\ntuser.dat\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoRun  
@@ -77,8 +77,8 @@ TSY病毒是由Win7MEMZ-BX及其团队编写的一款伪装成Cmd优化工具的
  [主系统盘符]\Windows\System32\config\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoControlPanel  
  [主系统盘符]\Users\[用户名]\ntuser.dat\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoControlPanel  
  [主系统盘符]\Users\[用户名]\ntuser.dat\Software\Microsoft\Windows\CurrentVersion\Policies\System\Disableregistrytools  
-    5. 删除系统根目录下的hints.txt。这是病毒创建的标记文件，同时删除主系统环境变量中的%temp%目录下的tsy.com。
-    6. 重新启动计算机。
+    5. 删除系统根目录下的hints.txt。这是病毒创建的标记文件，同时删除主系统环境变量中的%temp%目录下的tsy.com。  
+    6. 重新启动计算机。  
 经过以上操作后，TSY病毒就成功从您的计算机移除了。
 
 四、病毒的源码
