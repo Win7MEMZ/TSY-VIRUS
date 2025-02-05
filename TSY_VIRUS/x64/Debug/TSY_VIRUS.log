@@ -1,0 +1,4 @@
+﻿  TSY_VIRUS.cpp
+E:\Virus\TSY\TSY_VIRUS\TSY_VIRUS.cpp(9,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  LINK : 没有找到 E:\Virus\TSY\TSY_VIRUS\x64\Debug\TSY_VIRUS.exe 或上一个增量链接没有生成它；正在执行完全链接
+  TSY_VIRUS.vcxproj -> E:\Virus\TSY\TSY_VIRUS\x64\Debug\TSY_VIRUS.exe
